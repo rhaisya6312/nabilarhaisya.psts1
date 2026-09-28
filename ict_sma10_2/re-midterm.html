@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student creativity festival</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1>Student Creativity Festival</h1>
+        <p>Showcase your creativity, skills, and innovations!</p>
+    </header>
+    <main>
+        <section>
+            <form action="#">
+                <label for="name">Student Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+                <br>
+                
+                <label for="class">Class:</label>
+                <select id="class" name="class">
+                    <option value="10A">XlA</option>
+                    <option value="10B">XlB</option>
+                    <option value="11A">XllA</option>
+                    <option value="11B">XllB</option>
+                </select>
+                <br>
+
+                <!-- This is the label for the gender question. -->
+                <label for="gender" id="gender">Gender:</label>
+
+                <!-- This is the label for the gender options. -->
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="Select a category">Select a category</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Graphics Design">Graphics Design</option>
+                    <option value="IoT projects">IoT projects</option>
+                    <option value="Photography">Photography</option>
+                </select>
+                <br>
+
+                <!-- This is the label for the participation question. -->
+                <label for="participation" id="participation">Will you participate in the festival?</label>
+
+                <!-- This is the label for the participation options. -->
+                <input type="radio" id="individual" name="participation" value="yes">
+                <label for="individual">Individual</label>
+                <input type="radio" id="team" name="participation" value="no">
+                <label for="team">Team</label>
+                <br>
+
+                <!-- This is the label for the team name input. -->
+                <label for="team-name">Team Name:</label>
+                <input type="text" id="team-name" name="team-name" placeholder="Enter your team name">
+                <br>
+
+                <label for="tel">Telephone:</label>
+                <input type="tel" id="tel" name="tel" placeholder="08xxxxxxxx">
+                <br>
+
+                <label for="description">Project Description:</label>
+                <textarea id="description" name="description" placeholder="Describe your project or competition entry....."></textarea>
+                <br>
+
+                <button type="submit">Register Now!</button>
+            </form>
+        </section>
+        <section>
+             <div  class="max-w-4xl mx-auto px-4 py-5 bg-white shadow-lg rounded-lg mt-6">
+       <h2 class="text-2xl font-bold mb-4">Paticipant table</h2>
+        <table class="container max-w-4xl mx-auto px-4 py-3 border border bg-gray-200 ">
+         <thead>
+             <tr class="bg-teal-400 text-white">
+             <th class="border px-4 py-2 border-gray-500">No</th>
+             <th class="border px-4 py-2 border-gray-500">Participant</th>
+             <th class="border px-4 py-2 border-gray-500">Class</th>
+             <th class="border px-4 py-2 border-gray-500">Category</th>
+             <th class="border px-4 py-2 border-gray-500">Team</th>
+            <th class="border px-4 py-2 border-gray-500">Status</th>
+             </tr>
+        </thead>
+        <tbody>
+                <tr>
+                  <td class="p-2 border border-gray-500">1</td>
+                  <td class="p-2 border border-gray-500">Oscar piastri</td>
+                  <td class="p-2 border border-gray-500">Xl-A</td>
+                  <td class="p-2 border border-gray-500">Web Development</td>
+                  <td class="p-2 border border-gray-500">Koala</td>
+                  <td class="p-2 border border-gray-500">Registered</td>
+             </tr>
+
+             <tr>
+                <td class="p-2 border border-gray-500">2</td>
+                <td class="p-2 border border-gray-500">George russell</td>
+                <td class="p-2 border border-gray-500">Xll-B</td>
+                <td class="p-2 border border-gray-500">Public Speaking</td>  
+                <td class="p-2 border border-gray-500">Tiger</td>
+                <td class="p-2 border border-gray-500">Pending</td>
+             </tr>
+
+             <tr>
+                <td class="p-2 border border-gray-500">3</td>
+                <td class="p-2 border border-gray-500">Lando norris</td>
+                <td class="p-2 border border-gray-500">Xll-B</td>
+                <td class="p-2 border border-gray-500">Public Speaking</td>
+                <td class="p-2 border border-gray-500">Lavender</td>
+                <td class="p-2 border border-gray-500">Registered</td>
+             </tr>
+
+             <tr>
+                    <td class="p-2 border border-gray-500">4</td>
+                    <td class="p-2 border border-gray-500">Kimi antonelli</td>
+                    <td class="p-2 border border-gray-500">Xl-B</td>
+                    <td class="p-2 border border-gray-500">Graphic Design</td>
+                    <td class="p-2 border border-gray-500">Barrila</td>
+                    <td class="p-2 border border-gray-500">Pending</td>
+             </tr>
+                </tbody>
+                
+            </table>
+        </section>
+    </main>
+</body>
+</html>
